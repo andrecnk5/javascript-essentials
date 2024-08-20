@@ -143,52 +143,6 @@ do {
 } while (i < 5);
 ```
 
-## Exercício Prático
-
-Crie um programa que simule um caixa eletrônico:
-1. Comece com um saldo de R$ 1000
-2. Em um laço while, pergunte ao usuário que operação deseja fazer: sacar, depositar ou ver saldo
-3. Implemente cada operação
-4. Continue perguntando até que o usuário escolha sair
-5. Use break para sair do loop quando o usuário escolher sair
-
-Exemplo de solução:
-
-```javascript
-let saldo = 1000;
-let continuar = true;
-
-while (continuar) {
-    let operacao = prompt("Escolha uma operação: sacar, depositar, ver saldo ou sair");
-    
-    switch (operacao) {
-        case "sacar":
-            let valorSaque = parseFloat(prompt("Quanto deseja sacar?"));
-            if (valorSaque <= saldo) {
-                saldo -= valorSaque;
-                console.log(`Saque de R$ ${valorSaque} realizado. Novo saldo: R$ ${saldo}`);
-            } else {
-                console.log("Saldo insuficiente");
-            }
-            break;
-        case "depositar":
-            let valorDeposito = parseFloat(prompt("Quanto deseja depositar?"));
-            saldo += valorDeposito;
-            console.log(`Depósito de R$ ${valorDeposito} realizado. Novo saldo: R$ ${saldo}`);
-            break;
-        case "ver saldo":
-            console.log(`Seu saldo atual é R$ ${saldo}`);
-            break;
-        case "sair":
-            continuar = false;
-            console.log("Obrigado por usar nosso caixa eletrônico!");
-            break;
-        default:
-            console.log("Operação inválida");
-    }
-}
-```
-
 ## Dicas Úteis
 
 1. Sempre tenha uma condição de saída clara para seus laços while.
