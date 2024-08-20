@@ -111,3 +111,10 @@ Tente escrever um "programa" em linguagem natural para uma tarefa simples, como 
 - [Introdução ao JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Introduction)
 
 Próxima aula: Configuração do Ambiente de Desenvolvimento JavaScript.
+
+------
+
+[🏠](README.md) | [➡️](dia02-configuracao-ambiente.md)
+
+
+
