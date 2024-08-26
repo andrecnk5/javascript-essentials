@@ -100,4 +100,3 @@ console.log("5" + 3);     // "53" (concatenação de string)
 console.log(5 + 3);       // 8 (adição numérica)
 console.log("5" - 3);     // 2 (coerção de tipo para subtração)
 ```
-
