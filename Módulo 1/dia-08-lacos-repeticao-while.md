@@ -178,31 +178,35 @@ while (x > 0) {
 
 ### Questões de Múltipla Escolha
 
-1. Qual é a sintaxe correta para um loop `while` em JavaScript?
-   a) `while (condição) { }`
-   b) `while { condição }`
-   c) `while: condição { }`
-   d) `while condição do { }`
+Qual é a sintaxe correta para um loop `while` em JavaScript?
 
-2. O que acontece se a condição de um loop `while` for falsa desde o início?
-   a) O loop executa uma vez e então para
-   b) O loop executa infinitamente
-   c) O loop não executa nenhuma vez
-   d) Ocorre um erro de sintaxe
+1. [ ] `while (condição) { }`
+2. [ ] `while { condição }`
+3. [ ] `while: condição { }`
+4. [ ] `while condição do { }`
+
+O que acontece se a condição de um loop `while` for falsa desde o início?
+
+1. [ ] O loop executa uma vez e então para
+2. [ ] O loop executa infinitamente
+3. [ ] O loop não executa nenhuma vez
+4. [ ] Ocorre um erro de sintaxe
 
 ### Questões de Caixa de Múltiplas Escolhas
 
-1. Quais das seguintes afirmações sobre o loop `while` são verdadeiras? (Selecione todas as aplicáveis)
-   [ ] A condição é verificada no início de cada iteração
-   [ ] O loop sempre executa pelo menos uma vez
-   [ ] Pode-se usar `break` para sair do loop prematuramente
-   [ ] A condição deve ser uma expressão booleana
+Quais das seguintes afirmações sobre o loop `while` são verdadeiras? (Selecione todas as aplicáveis)
 
-2. Quais das seguintes são boas práticas ao usar loops `while`? (Selecione todas as aplicáveis)
-   [ ] Garantir que a condição eventualmente se torne falsa
-   [ ] Usar variáveis de controle para gerenciar o loop
-   [ ] Evitar modificar a variável de controle fora do loop
-   [ ] Preferir `while` sobre `for` em todas as situações
+1. [ ] A condição é verificada no início de cada iteração
+2. [ ] O loop sempre executa pelo menos uma vez
+3. [ ] Pode-se usar `break` para sair do loop prematuramente
+4. [ ] A condição deve ser uma expressão booleana
+
+Quais das seguintes são boas práticas ao usar loops `while`? (Selecione todas as aplicáveis)
+
+1. [ ] Garantir que a condição eventualmente se torne falsa
+2. [ ] Usar variáveis de controle para gerenciar o loop
+3. [ ] Evitar modificar a variável de controle fora do loop
+4. [ ] Preferir `while` sobre `for` em todas as situações
 
 ### Questões Verdadeiro ou Falso
 
@@ -214,24 +218,17 @@ while (x > 0) {
 
 4. Um loop `while` pode ser transformado em um loop `for` equivalente em todos os casos. (V/F)
 
-### Questões de Associação
+### Questão de Associação
 
-Associe os conceitos da coluna A com suas descrições na coluna B:
+Associe os conceitos da Coluna A com suas descrições na Coluna B:
 
-Coluna A:
-
-1. while
-2. do...while
-3. break
-4. continue
-5. Condição
-
-Coluna B:
-a) Verifica-se no início de cada iteração
-b) Executa o bloco pelo menos uma vez antes de verificar a condição
-c) Sai imediatamente do loop
-d) Pula para a próxima iteração do loop
-e) Estrutura de repetição básica em JavaScript
+| Coluna A      | Coluna B                                                     |
+| ------------- | ------------------------------------------------------------ |
+| 1. while      | a) Verifica-se no início de cada iteração                    |
+| 2. do...while | b) Executa o bloco pelo menos uma vez antes de verificar a condição |
+| 3. break      | c) Sai imediatamente do loop                                 |
+| 4. continue   | d) Pula para a próxima iteração do loop                      |
+| 5. Condição   | e) Estrutura de repetição básica em JavaScript               |
 
 ## Exercícios Práticos
 
