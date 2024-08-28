@@ -7,137 +7,225 @@ Ao final desta lição, você será capaz de:
 3. Entender a precedência entre operadores lógicos e de comparação
 4. Aplicar estes operadores em estruturas condicionais simples
 
-## 1. Operadores de Comparação
+# Operadores de Comparação em JavaScript
 
-Os operadores de comparação são usados para comparar valores e retornam um valor booleano (true ou false).
+## 1. Introdução aos Operadores de Comparação
 
-| Operador | Descrição | Exemplo |
-|----------|-----------|---------|
-| `==`     | Igual a (compara valor) | `5 == "5"` retorna `true` |
-| `===`    | Estritamente igual a (compara valor e tipo) | `5 === "5"` retorna `false` |
-| `!=`     | Diferente de (compara valor) | `5 != "6"` retorna `true` |
-| `!==`    | Estritamente diferente de (compara valor e tipo) | `5 !== "5"` retorna `true` |
-| `>`      | Maior que | `7 > 5` retorna `true` |
-| `<`      | Menor que | `5 < 3` retorna `false` |
-| `>=`     | Maior ou igual a | `7 >= 7` retorna `true` |
-| `<=`     | Menor ou igual a | `5 <= 5` retorna `true` |
+Os operadores de comparação em JavaScript são utilizados para comparar valores e retornar um resultado booleano (verdadeiro ou falso). Esses operadores são fundamentais para a lógica de programação, permitindo que você tome decisões em seu código com base em comparações entre valores.
 
-Exemplo:
-
+### Exemplo:
 ```javascript
-console.log(5 == "5");   // true (compara apenas o valor)
-console.log(5 === "5");  // false (compara valor e tipo)
-console.log(10 !== 10);  // false
-console.log(10 != "10"); // false
-console.log(10 !== "10"); // true (tipos diferentes)
-console.log(5 > 3);      // true
-console.log(5 < 3);      // false
-console.log(5 >= 5);     // true
-console.log(5 <= 6);     // true
-```
-
-## 2. Operadores Lógicos
-
-Os operadores lógicos são usados para determinar a lógica entre variáveis ou valores.
-
-| Operador | Descrição | Exemplo |
-|----------|-----------|---------|
-| `&&`     | E lógico  | `true && true` retorna `true` |
-| `||`     | OU lógico | `true || false` retorna `true` |
-| `!`      | NÃO lógico | `!true` retorna `false` |
-
-Exemplo:
-
-```javascript
+// Comparando dois números
 let x = 5;
 let y = 10;
+console.log(x < y); // Saída: true
 
-console.log(x < 10 && y > 5);  // true (ambas as condições são verdadeiras)
-console.log(x < 10 || y < 5);  // true (pelo menos uma condição é verdadeira)
-console.log(!(x === y));       // true (x não é igual a y)
+// Comparando duas strings
+let nome1 = "Alice";
+let nome2 = "Bob";
+console.log(nome1 === nome2); // Saída: false
 ```
 
-## 3. Precedência de Operadores
+## 2. Tipos de Operadores de Comparação
 
-A ordem de precedência dos operadores lógicos é:
-1. `!` (NÃO)
-2. `&&` (E)
-3. `||` (OU)
+### 2.1 Operador de Igualdade (==)
 
-Os operadores de comparação são avaliados antes dos operadores lógicos.
+O operador de igualdade compara dois valores, realizando coerção de tipo se necessário.
+
+#### Exemplo:
+```javascript
+console.log(5 == "5"); // Saída: true
+// O operador == converte a string "5" em um número antes da comparação
+```
+
+### 2.2 Operador de Igualdade Estrita (===)
+
+O operador de igualdade estrita compara dois valores sem realizar coerção de tipo.
+
+#### Exemplo:
+```javascript
+console.log(5 === "5"); // Saída: false
+// O operador === não realiza coerção de tipo, então um número e uma string são considerados diferentes
+```
+
+### 2.3 Operador de Desigualdade (!=)
+
+O operador de desigualdade compara dois valores, retornando true se forem diferentes após a coerção de tipo.
+
+#### Exemplo:
+```javascript
+console.log(5 != "6"); // Saída: true
+console.log(5 != "5"); // Saída: false
+```
+
+### 2.4 Operador de Desigualdade Estrita (!==)
+
+O operador de desigualdade estrita compara dois valores, retornando true se forem diferentes em valor ou tipo.
+
+#### Exemplo:
+```javascript
+console.log(5 !== "5"); // Saída: true
+console.log(5 !== 5); // Saída: false
+```
+
+### 2.5 Operador Maior Que (>)
+
+O operador maior que retorna true se o valor à esquerda for maior que o valor à direita.
+
+#### Exemplo:
+```javascript
+console.log(10 > 5); // Saída: true
+console.log(5 > 10); // Saída: false
+```
+
+### 2.6 Operador Menor Que (<)
+
+O operador menor que retorna true se o valor à esquerda for menor que o valor à direita.
+
+#### Exemplo:
+```javascript
+console.log(5 < 10); // Saída: true
+console.log(10 < 5); // Saída: false
+```
+
+### 2.7 Operador Maior ou Igual a (>=)
+
+O operador maior ou igual a retorna true se o valor à esquerda for maior ou igual ao valor à direita.
+
+#### Exemplo:
+```javascript
+console.log(10 >= 10); // Saída: true
+console.log(11 >= 10); // Saída: true
+console.log(9 >= 10); // Saída: false
+```
+
+### 2.8 Operador Menor ou Igual a (<=)
+
+O operador menor ou igual a retorna true se o valor à esquerda for menor ou igual ao valor à direita.
+
+#### Exemplo:
+```javascript
+console.log(10 <= 10); // Saída: true
+console.log(9 <= 10); // Saída: true
+console.log(11 <= 10); // Saída: false
+```
+
+## 3. Exercícios Teóricos
+
+### 3.1 Questão Dissertativa
+
+Explique a diferença entre os operadores de igualdade (==) e igualdade estrita (===) em JavaScript. Forneça exemplos para ilustrar sua resposta.
+
+**Resposta:**
+O operador de igualdade (==) realiza coerção de tipo antes de fazer a comparação, enquanto o operador de igualdade estrita (===) compara os valores sem realizar coerção de tipo. 
 
 Exemplo:
-
 ```javascript
-let a = 5;
-let b = 10;
-let c = 15;
-
-console.log(a < b && b < c);  // true
-console.log(a > b || b < c);  // true
-console.log(!(a < b) || c < b);  // false
-
-// Uso de parênteses para alterar a precedência
-console.log((a > b || b < c) && c > a);  // true
+console.log(5 == "5");  // true (coerção de tipo)
+console.log(5 === "5"); // false (tipos diferentes)
 ```
 
-## 4. Aplicação em Estruturas Condicionais
+No primeiro caso, o operador == converte a string "5" em um número antes da comparação, resultando em true. No segundo caso, === compara tanto o valor quanto o tipo, resultando em false porque um é número e o outro é string.
 
-Os operadores de comparação e lógicos são frequentemente usados em estruturas condicionais como `if...else`.
+### 3.2 Questão de Múltipla Escolha
 
-Exemplo:
+Qual é o resultado da expressão `10 > "5"` em JavaScript?
 
-```javascript
-let idade = 18;
-let temCarteira = true;
+a) true
+b) false
+c) undefined
+d) Error
 
-if (idade >= 18 && temCarteira) {
-    console.log("Pode dirigir");
-} else if (idade >= 18 && !temCarteira) {
-    console.log("Precisa tirar a carteira");
-} else {
-    console.log("Não pode dirigir");
-}
-```
+**Resposta correta: a) true**
 
-## Exercício Prático
+Justificativa: JavaScript realiza coerção de tipo quando necessário em comparações. Neste caso, a string "5" é convertida para o número 5 antes da comparação. Como 10 é maior que 5, a expressão retorna true.
 
-Crie um script que:
-1. Declare variáveis para representar a temperatura e se está chovendo
-2. Use operadores de comparação e lógicos para decidir se uma pessoa deve:
-   - Ficar em casa (se estiver chovendo e a temperatura for menor que 15°C)
-   - Ir à praia (se não estiver chovendo e a temperatura for maior ou igual a 25°C)
-   - Ir ao parque (em qualquer outra situação)
-3. Imprima a decisão no console
+### 3.3 Questão de Caixa de Múltiplas Escolhas
 
-Exemplo de solução:
+Quais das seguintes expressões retornam `true` em JavaScript? (Selecione todas as opções corretas)
 
-```javascript
-let temperatura = 20;
-let estaChovendo = false;
+[ ] 5 === "5"
+[x] 5 == "5"
+[x] 10 >= 10
+[x] "a" < "b"
+[ ] null == undefined
+[x] null === null
 
-if (estaChovendo && temperatura < 15) {
-    console.log("Melhor ficar em casa");
-} else if (!estaChovendo && temperatura >= 25) {
-    console.log("Ótimo dia para ir à praia!");
-} else {
-    console.log("Que tal um passeio no parque?");
-}
-```
+**Respostas corretas: b, c, d, f**
 
-## Dicas Úteis
+Justificativa:
+- `5 === "5"` é falso porque compara tipos diferentes sem coerção.
+- `5 == "5"` é verdadeiro devido à coerção de tipo.
+- `10 >= 10` é verdadeiro porque 10 é igual a 10.
+- `"a" < "b"` é verdadeiro porque na ordem lexicográfica, "a" vem antes de "b".
+- `null == undefined` é verdadeiro em JavaScript (coerção de tipo).
+- `null === null` é verdadeiro porque null é igual a si mesmo.
 
-1. Sempre use `===` e `!==` para comparações, a menos que você tenha uma razão específica para usar `==` ou `!=`.
-2. Use parênteses para tornar suas expressões lógicas mais claras e evitar erros de precedência.
-3. Lembre-se que `&&` retorna o primeiro valor falso ou o último valor se todos forem verdadeiros, enquanto `||` retorna o primeiro valor verdadeiro ou o último valor se todos forem falsos.
+### 3.4 Questão Verdadeiro ou Falso
 
-## Recursos Adicionais
+Determine se as seguintes afirmações são verdadeiras ou falsas:
 
-- [Operadores lógicos (MDN em português)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
-- [Operadores de comparação (MDN em português)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
-- [JavaScript Comparações e Operadores Lógicos (W3Schools em português)](https://www.w3schools.com/js/js_comparisons.asp)
+1. O operador `>` pode ser usado para comparar strings. [V]
+2. `NaN === NaN` retorna true. [F]
+3. O operador `<=` retorna true se o valor à esquerda for menor ou igual ao valor à direita. [V]
+4. `"10" === 10` retorna true. [F]
+
+**Respostas:**
+1. Verdadeiro. Strings são comparadas lexicograficamente.
+2. Falso. NaN não é igual a nada, nem mesmo a si mesmo.
+3. Verdadeiro. Esta é a definição correta do operador `<=`.
+4. Falso. O operador `===` compara valor e tipo, e uma string não é igual a um número.
+
+### 3.5 Questão de Associação
+
+Associe os operadores de comparação com suas descrições:
+
+| Operador | Descrição |
+|----------|-----------|
+| 1. ==    | A. Igualdade estrita |
+| 2. ===   | B. Maior que |
+| 3. !=    | C. Menor ou igual a |
+| 4. >     | D. Igualdade (com coerção) |
+| 5. <=    | E. Desigualdade (com coerção) |
+
+**Respostas:**
+1-D, 2-A, 3-E, 4-B, 5-C
+
+Justificativa:
+- `==` realiza comparação de igualdade com coerção de tipo.
+- `===` realiza comparação de igualdade estrita, sem coerção.
+- `!=` verifica desigualdade com coerção de tipo.
+- `>` verifica se o valor à esquerda é maior que o valor à direita.
+- `<=` verifica se o valor à esquerda é menor ou igual ao valor à direita.
+
+## 5. Conclusão
+
+Os operadores de comparação são fundamentais na programação JavaScript, permitindo a criação de lógica condicional e tomada de decisões em seu código. Eles são essenciais para controle de fluxo, validações e implementação de regras de negócio. É crucial entender as nuances entre os diferentes operadores, especialmente a diferença entre igualdade (==) e igualdade estrita (===), para evitar bugs sutis em seu código. Praticar o uso desses operadores em diferentes contextos ajudará a solidificar seu entendimento e melhorar suas habilidades de programação.
+
+## 6. Referências e Dicas de Estudo
+
+1. Mozilla Developer Network (MDN) - JavaScript Comparison Operators:
+   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators
+
+2. JavaScript.info - Comparisons:
+   https://javascript.info/comparison
+
+3. W3Schools - JavaScript Comparison and Logical Operators:
+   https://www.w3schools.com/js/js_comparisons.asp
+
+4. Eloquent JavaScript by Marijn Haverbeke - Chapter 1: Values, Types, and Operators:
+   https://eloquentjavascript.net/01_values.html
+
+Dicas de Estudo:
+1. Pratique regularmente usando o console do navegador ou um ambiente Node.js.
+2. Crie pequenos programas que utilizam diferentes operadores de comparação.
+3. Experimente com diferentes tipos de dados (números, strings, booleanos, null, undefined) para entender como os operadores se comportam.
+4. Estude os conceitos de coerção de tipo em JavaScript para compreender melhor o comportamento dos operadores == e !=.
+5. Resolva exercícios e desafios de codificação que envolvam operadores de comparação.
+6. Participe de comunidades online de desenvolvedores JavaScript para discutir e aprender com outros programadores.
+
 
 ## Próxima Aula
 
-Na próxima aula, mergulharemos nas estruturas de controle em JavaScript, começando com declarações condicionais como `if`, `else if`, e `else`.
+Na próxima aula, mergulharemos nas estruturas de controle em JavaScript, começando com [estruturas de decisões](dia-06-estruturas-decisao.md) como `if`, `else if`, e `else`.
 
