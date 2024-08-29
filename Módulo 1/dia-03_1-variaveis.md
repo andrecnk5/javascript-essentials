@@ -284,17 +284,11 @@ Associe os conceitos da coluna A com suas descrições na coluna B:
 
 4. Declare uma variável `temperatura` sem atribuir um valor inicial. Imprima seu valor no console.
 
-5. Crie uma variável `frutas` como um array contendo três frutas. Use `const` para a declaração. Adicione uma nova fruta ao array e imprima o resultado.
+5. Crie uma função que receba um parâmetro `nome` e declare uma variável local `saudacao` usando `let`. Retorne uma string combinando `saudacao` e `nome`.
 
-6. Crie uma função que receba um parâmetro `nome` e declare uma variável local `saudacao` usando `let`. Retorne uma string combinando `saudacao` e `nome`.
+6. Demonstre o comportamento de hoisting com uma variável declarada com `var`. Tente acessar a variável antes de sua declaração no código.
 
-7. Demonstre o comportamento de hoisting com uma variável declarada com `var`. Tente acessar a variável antes de sua declaração no código.
-
-8. Crie um objeto `pessoa` usando `const` com propriedades `nome` e `idade`. Modifique a idade e adicione uma nova propriedade `cidade`. Imprima o objeto antes e depois das modificações.
-
-9. Demonstre a diferença de escopo entre `var` e `let` dentro de um bloco `if`.
-
-10. Crie uma função que demonstre o conceito de closure, usando uma variável declarada com `let`.
+7. Demonstre a diferença de escopo entre `var` e `let` dentro de um bloco `if`.
 
 ## Conclusão
 
