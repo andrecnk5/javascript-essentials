@@ -1,4 +1,4 @@
-# Dia 3: Variáveis e Tipos de Dados
+# Dia 3: Tipos de Dados
 
 ## Objetivos de Aprendizagem
 
