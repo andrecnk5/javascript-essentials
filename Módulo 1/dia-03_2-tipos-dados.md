@@ -385,11 +385,9 @@ Continue praticando e explorando cada tipo em diferentes contextos para solidifi
 
 ## Referências e Dicas de Estudo
 
-1. MDN Web Docs - JavaScript Data Types and Data Structures:
-   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
+1. [MDN Web Docs - JavaScript Data Types and Data Structures:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
-2. JavaScript.info - Data Types:
-   https
+2. [JavaScript.info - Data Types:](https://javascript.info/types)
 
 ## Próxima Aula
 
