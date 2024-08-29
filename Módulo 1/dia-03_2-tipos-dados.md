@@ -290,7 +290,7 @@ Este exemplo demonstra a criação e uso de símbolos, destacando sua unicidade 
    5. [ ] Symbol
 
 2. Qual é o resultado da expressão `typeof null` em JavaScript?
-   1. [ ]"null"
+   1. [ ] "null"
    2. [ ] "undefined"
    3. [ ] "object"
    4. [ ] "number"
