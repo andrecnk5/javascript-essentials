@@ -1,15 +1,12 @@
-# Dia 5: Operadores Lógicos e de Comparação
+# Dia 5: Operadores de Comparação
 
 ## Objetivos de Aprendizagem
 Ao final desta lição, você será capaz de:
 1. Utilizar operadores de comparação para avaliar e comparar valores
-2. Compreender e aplicar operadores lógicos para combinar condições
-3. Entender a precedência entre operadores lógicos e de comparação
-4. Aplicar estes operadores em estruturas condicionais simples
+2. Entender a precedência entre operadores de comparação
+3. Aplicar estes operadores em estruturas condicionais simples
 
-# Operadores de Comparação em JavaScript
-
-## 1. Introdução aos Operadores de Comparação
+1. Introdução aos Operadores de Comparação
 
 Os operadores de comparação em JavaScript são utilizados para comparar valores e retornar um resultado booleano (verdadeiro ou falso). Esses operadores são fundamentais para a lógica de programação, permitindo que você tome decisões em seu código com base em comparações entre valores.
 
@@ -116,65 +113,34 @@ console.log(11 <= 10); // Saída: false
 
 Explique a diferença entre os operadores de igualdade (==) e igualdade estrita (===) em JavaScript. Forneça exemplos para ilustrar sua resposta.
 
-**Resposta:**
-O operador de igualdade (==) realiza coerção de tipo antes de fazer a comparação, enquanto o operador de igualdade estrita (===) compara os valores sem realizar coerção de tipo. 
-
-Exemplo:
-```javascript
-console.log(5 == "5");  // true (coerção de tipo)
-console.log(5 === "5"); // false (tipos diferentes)
-```
-
-No primeiro caso, o operador == converte a string "5" em um número antes da comparação, resultando em true. No segundo caso, === compara tanto o valor quanto o tipo, resultando em false porque um é número e o outro é string.
-
 ### 3.2 Questão de Múltipla Escolha
 
 Qual é o resultado da expressão `10 > "5"` em JavaScript?
 
-a) true
-b) false
-c) undefined
-d) Error
-
-**Resposta correta: a) true**
-
-Justificativa: JavaScript realiza coerção de tipo quando necessário em comparações. Neste caso, a string "5" é convertida para o número 5 antes da comparação. Como 10 é maior que 5, a expressão retorna true.
+1. [ ] a) true
+2. [ ] b) false
+3. [ ] c) undefined
+4. [ ] d) Error
 
 ### 3.3 Questão de Caixa de Múltiplas Escolhas
 
 Quais das seguintes expressões retornam `true` em JavaScript? (Selecione todas as opções corretas)
 
-[ ] 5 === "5"
-[x] 5 == "5"
-[x] 10 >= 10
-[x] "a" < "b"
-[ ] null == undefined
-[x] null === null
-
-**Respostas corretas: b, c, d, f**
-
-Justificativa:
-- `5 === "5"` é falso porque compara tipos diferentes sem coerção.
-- `5 == "5"` é verdadeiro devido à coerção de tipo.
-- `10 >= 10` é verdadeiro porque 10 é igual a 10.
-- `"a" < "b"` é verdadeiro porque na ordem lexicográfica, "a" vem antes de "b".
-- `null == undefined` é verdadeiro em JavaScript (coerção de tipo).
-- `null === null` é verdadeiro porque null é igual a si mesmo.
+1. [ ] 5 === "5"
+2. [ ] 5 == "5"
+3. [ ] 10 >= 10
+4. [ ] "a" < "b"
+5. [ ] null == undefined
+6. [ ] null === null
 
 ### 3.4 Questão Verdadeiro ou Falso
 
 Determine se as seguintes afirmações são verdadeiras ou falsas:
 
-1. O operador `>` pode ser usado para comparar strings. [V]
-2. `NaN === NaN` retorna true. [F]
-3. O operador `<=` retorna true se o valor à esquerda for menor ou igual ao valor à direita. [V]
-4. `"10" === 10` retorna true. [F]
-
-**Respostas:**
-1. Verdadeiro. Strings são comparadas lexicograficamente.
-2. Falso. NaN não é igual a nada, nem mesmo a si mesmo.
-3. Verdadeiro. Esta é a definição correta do operador `<=`.
-4. Falso. O operador `===` compara valor e tipo, e uma string não é igual a um número.
+1. [ ] O operador `>` pode ser usado para comparar strings.
+2. [ ] `NaN === NaN` retorna true.
+3. [ ] O operador `<=` retorna true se o valor à esquerda for menor ou igual ao valor à direita.
+4. [ ] `"10" === 10` retorna true.
 
 ### 3.5 Questão de Associação
 
@@ -188,8 +154,6 @@ Associe os operadores de comparação com suas descrições:
 | 4. >     | D. Igualdade (com coerção) |
 | 5. <=    | E. Desigualdade (com coerção) |
 
-**Respostas:**
-1-D, 2-A, 3-E, 4-B, 5-C
 
 Justificativa:
 - `==` realiza comparação de igualdade com coerção de tipo.
@@ -224,8 +188,6 @@ Dicas de Estudo:
 5. Resolva exercícios e desafios de codificação que envolvam operadores de comparação.
 6. Participe de comunidades online de desenvolvedores JavaScript para discutir e aprender com outros programadores.
 
-
 ## Próxima Aula
 
 Na próxima aula, mergulharemos nas estruturas de controle em JavaScript, começando com [estruturas de decisões](dia-06-estruturas-decisao.md) como `if`, `else if`, e `else`.
-
