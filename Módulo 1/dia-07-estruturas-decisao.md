@@ -145,14 +145,14 @@ Os operadores de comparação e lógicos são frequentemente usados nas condiç�
 
 ### Operadores de comparação
 
-- `==` (igualdade)
-- `===` (igualdade estrita)
-- `!=` (diferença)
-- `!==` (diferença estrita)
-- `>` (maior que)
-- `<` (menor que)
-- `>=` (maior ou igual)
-- `<=` (menor ou igual)
+    - `==` (igualdade)
+    - `===` (igualdade estrita)
+    - `!=` (diferença)
+    - `!==` (diferença estrita)
+    - `>` (maior que)
+    - `<` (menor que)
+    - `>=` (maior ou igual)
+    - `<=` (menor ou igual)
 
 **Exemplo:**
 ```javascript
@@ -255,35 +255,35 @@ if (x > 0) {
 }
 ```
 
-a) Positivo
-b) Negativo
-c) Zero
-d) Nada será impresso
+    a) Positivo
+    b) Negativo
+    c) Zero
+    d) Nada será impresso
 
 2. Qual operador é usado para comparação estrita em JavaScript?
 
-a) ==
-b) ===
-c) =
-d) !=
+    a) ==
+    b) ===
+    c) =
+    d) !=
 
 ### Questões de Caixa de Múltiplas Escolhas
 
 1. Quais das seguintes são estruturas de decisão válidas em JavaScript? (Selecione todas as corretas)
 
-[ ] if
-[ ] if...else
-[ ] if...else if
-[ ] if...else if...else
-[ ] switch
+    [ ] if
+    [ ] if...else
+    [ ] if...else if
+    [ ] if...else if...else
+    [ ] switch
 
 2. Quais dos seguintes são operadores lógicos em JavaScript? (Selecione todos os corretos)
 
-[ ] &&
-[ ] ||
-[ ] !
-[ ] &
-[ ] |
+    [ ] &&
+    [ ] ||
+    [ ] !
+    [ ] &
+    [ ] |
 
 ### Questões Verdadeiro ou Falso
 
