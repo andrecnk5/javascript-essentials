@@ -205,50 +205,6 @@ Crie um programa de calculadora simples:
 4. A função `calculadora` deve chamar a função apropriada com base na operação e retornar o resultado.
 5. Teste a calculadora com diferentes operações.
 
-Exemplo de solução:
-
-```javascript
-function adicao(a, b) {
-    return a + b;
-}
-
-function subtracao(a, b) {
-    return a - b;
-}
-
-function multiplicacao(a, b) {
-    return a * b;
-}
-
-function divisao(a, b) {
-    if (b === 0) {
-        return "Erro: Divisão por zero!";
-    }
-    return a / b;
-}
-
-function calculadora(num1, num2, operacao) {
-    switch (operacao) {
-        case "+":
-            return adicao(num1, num2);
-        case "-":
-            return subtracao(num1, num2);
-        case "*":
-            return multiplicacao(num1, num2);
-        case "/":
-            return divisao(num1, num2);
-        default:
-            return "Operação inválida";
-    }
-}
-
-console.log(calculadora(5, 3, "+")); // Saída: 8
-console.log(calculadora(10, 4, "-")); // Saída: 6
-console.log(calculadora(3, 7, "*")); // Saída: 21
-console.log(calculadora(15, 3, "/")); // Saída: 5
-console.log(calculadora(10, 0, "/")); // Saída: Erro: Divisão por zero!
-```
-
 ## Dicas Úteis
 
 1. Mantenha suas funções pequenas e focadas em uma única tarefa.
