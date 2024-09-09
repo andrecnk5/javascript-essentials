@@ -1,7 +1,9 @@
 # Dia 9: Laços de Repetição (while)
 
 ## Objetivos de Aprendizagem
+
 Ao final desta lição, você será capaz de:
+
 1. Entender o conceito de laços de repetição e sua importância na programação
 2. Implementar e utilizar o laço while em JavaScript
 3. Controlar a execução de laços usando break e continue
@@ -15,6 +17,7 @@ Laços de repetição, ou loops, são estruturas que permitem executar um bloco 
 O loop `while` é uma estrutura de repetição fundamental em JavaScript que permite executar um bloco de código repetidamente enquanto uma condição específica for verdadeira.
 
 ### Características principais:
+
 - Utilizado quando não sabemos antecipadamente quantas vezes um bloco de código precisa ser executado.
 - A condição é verificada antes de cada iteração do loop.
 - Se a condição for falsa logo no início, o bloco de código dentro do `while` nunca será executado.
@@ -31,11 +34,13 @@ while (condição) {
 ```
 
 ### Explicação detalhada:
+
 - A palavra-chave `while` indica o início da estrutura de repetição.
 - A condição é uma expressão que retorna um valor booleano (verdadeiro ou falso).
 - O bloco de código é delimitado por chaves `{}` e contém as instruções a serem repetidas.
 
 ### Exemplo comentado:
+
 ```javascript
 let contador = 0;  // Inicialização
 
@@ -58,6 +63,7 @@ console.log("Loop concluído!");  // Executa após o término do loop
 Dentro de um loop `while`, podemos usar instruções de controle de fluxo para modificar o comportamento padrão do loop.
 
 ### Break
+
 O `break` é usado para sair imediatamente de um laço.
 
 Exemplo:
@@ -73,9 +79,11 @@ while (true) {
 ```
 
 ### Continue
+
 O `continue` pula o resto da iteração atual e passa para a próxima verificação da condição.
 
 Exemplo:
+
 ```javascript
 let i = 0;
 while (i < 5) {
@@ -86,7 +94,9 @@ while (i < 5) {
     console.log(i);
 }
 ```
+
 Saída:
+
 ```
 1
 2
@@ -98,11 +108,13 @@ Saída:
 
 O loop `while` tem uma variação chamada `do...while`, que garante que o bloco de código seja executado pelo menos uma vez.
 
-### Explicação:
+### Explicação
+
 - No `while`, a condição é verificada antes da primeira execução.
 - No `do...while`, o bloco de código é executado uma vez antes de verificar a condição.
 
-### Exemplo:
+### Exemplo
+
 ```javascript
 // Exemplo de while
 let i = 5;
@@ -131,6 +143,7 @@ O loop `while` é particularmente útil em certas situações específicas:
 - Validação de entrada: Para continuar solicitando entrada até que seja válida.
 
 ### Exemplo: Jogo de Adivinhação
+
 ```javascript
 let numeroSecreto = 7;
 let tentativa = 0;
@@ -158,6 +171,7 @@ Um loop infinito ocorre quando a condição do while nunca se torna falsa. Para 
 3. Verifique se a variável de controle está sendo atualizada corretamente
 
 Exemplo de loop infinito (não execute!):
+
 ```javascript
 let x = 1;
 while (x > 0) {
@@ -263,6 +277,7 @@ O loop `while` é uma estrutura de repetição poderosa e flexível em JavaScrip
 4. [Eloquent JavaScript: Chapter 2: Program Structure](https://eloquentjavascript.net/02_program_structure.html)
 
 Dicas de Estudo:
+
 - Pratique escrevendo diferentes tipos de loops `while` para resolver problemas variados.
 - Compare implementações usando `while` com outras estruturas de loop.
 - Experimente com ferramentas de depuração para visualizar a execução passo a passo de seus loops `while`.

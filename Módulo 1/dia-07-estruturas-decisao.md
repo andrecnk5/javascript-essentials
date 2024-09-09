@@ -20,6 +20,7 @@ As estruturas de decisão são fundamentais na programação, permitindo que o c
 Uma estrutura de decisão é um recurso de programação que permite ao código executar diferentes blocos de instruções dependendo de uma condição ser verdadeira ou falsa.
 
 **Exemplo:**
+
 ```javascript
 // Estrutura básica de um if
 if (condicao) {
@@ -32,6 +33,7 @@ if (condicao) {
 As estruturas de decisão são cruciais para criar programas dinâmicos e interativos, capazes de responder a diferentes situações e entradas de usuário.
 
 **Exemplo:**
+
 ```javascript
 let idade = 18;
 
@@ -53,6 +55,7 @@ A estrutura básica do "if" consiste em:
 3. Um bloco de código entre chaves `{}`
 
 **Exemplo:**
+
 ```javascript
 if (condicao) {
     // Código a ser executado
@@ -64,6 +67,7 @@ if (condicao) {
 As condições no "if" são expressões que resultam em um valor booleano (verdadeiro ou falso).
 
 **Exemplo:**
+
 ```javascript
 let numero = 10;
 
@@ -78,6 +82,7 @@ if (numero > 0) {
 O bloco de código dentro das chaves `{}` é executado apenas se a condição for verdadeira.
 
 **Exemplo:**
+
 ```javascript
 let temperatura = 30;
 
@@ -97,6 +102,7 @@ Existem várias formas de usar o "if" para criar lógicas de decisão mais compl
 O `else` é usado para especificar um bloco de código a ser executado se a condição for falsa.
 
 **Exemplo:**
+
 ```javascript
 let hora = 14;
 
@@ -113,6 +119,7 @@ if (hora < 12) {
 Usado quando há múltiplas condições a serem verificadas.
 
 **Exemplo:**
+
 ```javascript
 let nota = 75;
 
@@ -133,6 +140,7 @@ if (nota >= 90) {
 Uma forma abreviada de escrever uma estrutura if...else simples.
 
 **Exemplo:**
+
 ```javascript
 let idade = 20;
 let status = (idade >= 18) ? "Adulto" : "Menor";
@@ -155,6 +163,7 @@ Os operadores de comparação e lógicos são frequentemente usados nas condiç�
     - `<=` (menor ou igual)
 
 **Exemplo:**
+
 ```javascript
 let x = 5;
 let y = "5";
@@ -177,6 +186,7 @@ if (x === y) {
 - `!` (NÃO lógico)
 
 **Exemplo:**
+
 ```javascript
 let idade = 25;
 let temCarteira = true;
@@ -202,6 +212,7 @@ Ao usar estruturas "if", é importante seguir algumas boas práticas para manter
 6. Evite aninhamentos excessivos de 'if's
 
 **Exemplos:**
+
 ```javascript
 // Bom
 if (condicao) {
@@ -345,6 +356,7 @@ Lembre-se de que a prática é fundamental para aperfeiçoar o uso dessas estrut
 3. W3Schools - JavaScript if, else, and else if: https://www.w3schools.com/js/js_if_else.asp
 
 Dicas de estudo:
+
 1. Pratique escrevendo diferentes tipos de condições e estruturas de decisão.
 2. Experimente combinar múltiplas condições usando operadores lógicos.
 3. Tente refatorar código existente para usar estruturas de decisão mais eficientes.

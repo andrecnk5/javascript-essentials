@@ -1,7 +1,9 @@
 # Dia 14: Funções - Básico
 
 ## Objetivos de Aprendizagem
+
 Ao final desta lição, você será capaz de:
+
 1. Entender o conceito de funções em JavaScript
 2. Criar e declarar funções
 3. Chamar funções e passar argumentos
@@ -104,6 +106,7 @@ saudacao("João"); // Saída: Olá, João!
 ## Exercício Prático
 
 Crie um programa de calculadora simples:
+
 1. Crie funções separadas para adição, subtração, multiplicação e divisão.
 2. Cada função deve aceitar dois parâmetros e retornar o resultado.
 3. Crie uma função principal `calculadora` que aceita três parâmetros: dois números e uma operação (string).
@@ -171,4 +174,3 @@ console.log(calculadora(10, 0, "/")); // Saída: Erro: Divisão por zero!
 ## Próxima Aula
 
 Na próxima aula, aprofundaremos nosso conhecimento sobre funções, explorando conceitos mais avançados como closures, funções de ordem superior e métodos de array que utilizam funções.
-

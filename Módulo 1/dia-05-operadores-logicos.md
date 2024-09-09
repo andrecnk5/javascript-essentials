@@ -1,7 +1,9 @@
 # Dia 5: Operadores Lógicos em JavaScript
 
 ## Objetivos de Aprendizagem
+
 Ao final desta lição, você será capaz de:
+
 1. Utilizar operadores de comparação para avaliar e comparar valores
 2. Compreender e aplicar operadores lógicos para combinar condições
 3. Entender a precedência entre operadores lógicos e de comparação
@@ -19,7 +21,7 @@ JavaScript possui três operadores lógicos principais:
 
 O operador AND (&&) retorna true se ambos os operandos forem verdadeiros. Caso contrário, retorna false.
 
-#### Exemplo:
+#### Exemplo
 
 ```javascript
 let x = 5;
@@ -37,7 +39,7 @@ console.log(x > 10 && y < 20); // false
 
 O operador OR (||) retorna true se pelo menos um dos operandos for verdadeiro. Retorna false apenas se ambos os operandos forem falsos.
 
-#### Exemplo:
+#### Exemplo
 
 ```javascript
 let a = 3;
@@ -55,7 +57,7 @@ console.log(a < 0 || b > 0); // false
 
 O operador NOT (!) inverte o valor lógico do operando. Se o operando for true, retorna false, e vice-versa.
 
-#### Exemplo:
+#### Exemplo
 
 ```javascript
 let isRaining = true;
@@ -78,7 +80,7 @@ A precedência dos operadores lógicos em JavaScript é a seguinte (do maior par
 
 Isso significa que o NOT será avaliado primeiro, seguido pelo AND e, por último, o OR.
 
-#### Exemplo:
+#### Exemplo
 
 ```javascript
 let result = true && !false || false && !true;
@@ -101,7 +103,7 @@ JavaScript utiliza a avaliação de curto-circuito para operadores lógicos. Iss
 
 Se o primeiro operando for false, o segundo operando não será avaliado, pois o resultado final já será false.
 
-#### Exemplo:
+#### Exemplo
 
 ```javascript
 let x = 5;
@@ -141,7 +143,7 @@ Em JavaScript, os operadores lógicos podem ser usados com valores não booleano
 
 Retorna o primeiro operando se ele for falsy, caso contrário, retorna o segundo operando.
 
-#### Exemplo:
+#### Exemplo
 
 ```javascript
 console.log(0 && "Hello"); // 0
@@ -156,7 +158,7 @@ console.log(1 && "World"); // "World"
 
 Retorna o primeiro operando se ele for truthy, caso contrário, retorna o segundo operando.
 
-#### Exemplo:
+#### Exemplo
 
 ```javascript
 console.log("" || "Default"); // "Default"
@@ -175,7 +177,7 @@ Os operadores lógicos são amplamente utilizados em várias situações de prog
 
 Usados em estruturas condicionais para tomar decisões.
 
-#### Exemplo:
+#### Exemplo
 
 ```javascript
 let idade = 18;
@@ -195,7 +197,7 @@ if (idade >= 18 && temCarteira) {
 
 Úteis para verificar múltiplas condições em validações de entrada de usuário.
 
-#### Exemplo:
+#### Exemplo
 
 ```javascript
 function validarSenha(senha) {
@@ -213,7 +215,7 @@ console.log(validarSenha("abc123")); // false
 
 O operador OR é frequentemente usado para definir valores padrão.
 
-#### Exemplo:
+#### Exemplo
 
 ```javascript
 function saudacao(nome) {
@@ -304,6 +306,7 @@ A compreensão profunda dos operadores lógicos, incluindo seu comportamento de 
 5. Curso online "JavaScript: Understanding the Weird Parts" na Udemy
 
 Dicas de Estudo:
+
 - Pratique regularmente escrevendo código que utiliza operadores lógicos.
 - Experimente combinar operadores lógicos de diferentes maneiras e observe os resultados.
 - Crie pequenos projetos que envolvam tomada de decisões complexas usando operadores lógicos.
@@ -311,9 +314,6 @@ Dicas de Estudo:
 - Estude o comportamento dos operadores lógicos com diferentes tipos de dados em JavaScript.
 - Revise e analise código de outros desenvolvedores para ver como eles utilizam operadores lógicos em situações reais.
 
-
-
 ## Próxima Aula
 
 Na próxima aula, mergulharemos nas estruturas de controle em JavaScript, começando com [estruturas de decisões](dia-06-estruturas-decisao.md) como `if`, `else if`, e `else`.
-

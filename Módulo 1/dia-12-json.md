@@ -1,7 +1,9 @@
 # Dia 12: JSON (JavaScript Object Notation) - Detalhado
 
 ## Objetivos de Aprendizagem
+
 Ao final desta lição, você será capaz de:
+
 1. Compreender profundamente o que é JSON e sua importância no desenvolvimento web
 2. Criar e ler estruturas de dados complexas em formato JSON
 3. Dominar a conversão entre objetos JavaScript e strings JSON
@@ -13,7 +15,8 @@ Ao final desta lição, você será capaz de:
 
 JSON (JavaScript Object Notation) é um formato de dados leve, independente de linguagem e fácil de ler e escrever. Desenvolvido por Douglas Crockford, JSON tornou-se um padrão para troca de dados na web devido à sua simplicidade e eficiência.
 
-### Características principais:
+### Características principais
+
 - Baseado em um subconjunto da linguagem JavaScript
 - Utiliza convenções familiares a programadores de diversas linguagens
 - Estrutura de dados universal, suportada por praticamente todas as linguagens de programação modernas
@@ -23,6 +26,7 @@ JSON (JavaScript Object Notation) é um formato de dados leve, independente de l
 JSON é construído sobre duas estruturas fundamentais:
 
 ### 2.1 Objetos
+
 Um objeto é um conjunto não ordenado de pares nome/valor. Um objeto começa com `{` (chave de abertura) e termina com `}` (chave de fechamento). Cada nome é seguido por `:` (dois pontos) e os pares nome/valor são separados por `,` (vírgula).
 
 Exemplo detalhado de um objeto JSON:
@@ -54,6 +58,7 @@ Exemplo detalhado de um objeto JSON:
 ```
 
 ### 2.2 Arrays
+
 Um array é uma coleção ordenada de valores. Um array começa com `[` (colchete de abertura) e termina com `]` (colchete de fechamento). Os valores são separados por `,` (vírgula).
 
 Exemplo detalhado de um array JSON:
@@ -194,6 +199,7 @@ Saída:
 ```
 
 O segundo e terceiro argumentos de `JSON.stringify()` são opcionais:
+
 - O segundo argumento (`null` neste caso) pode ser uma função ou um array para transformar o resultado.
 - O terceiro argumento (`2` neste caso) especifica o número de espaços para indentação, melhorando a legibilidade.
 
@@ -261,12 +267,14 @@ buscarDadosUsuario(123);
 ## 6. Limitações e Boas Práticas
 
 ### Limitações:
+
 1. JSON não suporta comentários.
 2. Todas as chaves devem ser strings e usar aspas duplas.
 3. Não suporta diretamente tipos como `Date`, `undefined`, ou `Function`.
 4. Não tem suporte nativo para referências circulares.
 
 ### Boas Práticas:
+
 1. Valide sempre o JSON antes de usar `JSON.parse()`.
 2. Use try-catch ao analisar JSON para lidar com possíveis erros.
 3. Evite armazenar dados sensíveis em JSON sem criptografia.

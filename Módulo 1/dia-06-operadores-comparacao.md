@@ -1,16 +1,19 @@
 # Dia 6: Operadores de Comparação
 
 ## Objetivos de Aprendizagem
+
 Ao final desta lição, você será capaz de:
+
 1. Utilizar operadores de comparação para avaliar e comparar valores
 2. Entender a precedência entre operadores de comparação
 3. Aplicar estes operadores em estruturas condicionais simples
 
-1. Introdução aos Operadores de Comparação
+### 1. Introdução aos Operadores de Comparação
 
 Os operadores de comparação em JavaScript são utilizados para comparar valores e retornar um resultado booleano (verdadeiro ou falso). Esses operadores são fundamentais para a lógica de programação, permitindo que você tome decisões em seu código com base em comparações entre valores.
 
-### Exemplo:
+### Exemplo
+
 ```javascript
 // Comparando dois números
 let x = 5;
@@ -29,7 +32,8 @@ console.log(nome1 === nome2); // Saída: false
 
 O operador de igualdade compara dois valores, realizando coerção de tipo se necessário.
 
-#### Exemplo:
+#### Exemplo
+
 ```javascript
 console.log(5 == "5"); // Saída: true
 // O operador == converte a string "5" em um número antes da comparação
@@ -39,7 +43,8 @@ console.log(5 == "5"); // Saída: true
 
 O operador de igualdade estrita compara dois valores sem realizar coerção de tipo.
 
-#### Exemplo:
+#### Exemplo
+
 ```javascript
 console.log(5 === "5"); // Saída: false
 // O operador === não realiza coerção de tipo, então um número e uma string são considerados diferentes
@@ -49,7 +54,8 @@ console.log(5 === "5"); // Saída: false
 
 O operador de desigualdade compara dois valores, retornando true se forem diferentes após a coerção de tipo.
 
-#### Exemplo:
+#### Exemplo
+
 ```javascript
 console.log(5 != "6"); // Saída: true
 console.log(5 != "5"); // Saída: false
@@ -59,7 +65,8 @@ console.log(5 != "5"); // Saída: false
 
 O operador de desigualdade estrita compara dois valores, retornando true se forem diferentes em valor ou tipo.
 
-#### Exemplo:
+#### Exemplo
+
 ```javascript
 console.log(5 !== "5"); // Saída: true
 console.log(5 !== 5); // Saída: false
@@ -69,7 +76,8 @@ console.log(5 !== 5); // Saída: false
 
 O operador maior que retorna true se o valor à esquerda for maior que o valor à direita.
 
-#### Exemplo:
+#### Exemplo
+
 ```javascript
 console.log(10 > 5); // Saída: true
 console.log(5 > 10); // Saída: false
@@ -79,7 +87,8 @@ console.log(5 > 10); // Saída: false
 
 O operador menor que retorna true se o valor à esquerda for menor que o valor à direita.
 
-#### Exemplo:
+#### Exemplo
+
 ```javascript
 console.log(5 < 10); // Saída: true
 console.log(10 < 5); // Saída: false
@@ -89,7 +98,8 @@ console.log(10 < 5); // Saída: false
 
 O operador maior ou igual a retorna true se o valor à esquerda for maior ou igual ao valor à direita.
 
-#### Exemplo:
+#### Exemplo
+
 ```javascript
 console.log(10 >= 10); // Saída: true
 console.log(11 >= 10); // Saída: true
@@ -100,7 +110,8 @@ console.log(9 >= 10); // Saída: false
 
 O operador menor ou igual a retorna true se o valor à esquerda for menor ou igual ao valor à direita.
 
-#### Exemplo:
+#### Exemplo
+
 ```javascript
 console.log(10 <= 10); // Saída: true
 console.log(9 <= 10); // Saída: true
@@ -154,8 +165,8 @@ Associe os operadores de comparação com suas descrições:
 | 4. >     | D. Igualdade (com coerção) |
 | 5. <=    | E. Desigualdade (com coerção) |
 
-
 Justificativa:
+
 - `==` realiza comparação de igualdade com coerção de tipo.
 - `===` realiza comparação de igualdade estrita, sem coerção.
 - `!=` verifica desigualdade com coerção de tipo.
@@ -181,6 +192,7 @@ Os operadores de comparação são fundamentais na programação JavaScript, per
    https://eloquentjavascript.net/01_values.html
 
 Dicas de Estudo:
+
 1. Pratique regularmente usando o console do navegador ou um ambiente Node.js.
 2. Crie pequenos programas que utilizam diferentes operadores de comparação.
 3. Experimente com diferentes tipos de dados (números, strings, booleanos, null, undefined) para entender como os operadores se comportam.

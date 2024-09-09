@@ -1,7 +1,9 @@
 # Dia 8: Estruturas Condicionais Avançadas (Switch Case)
 
 ## Objetivos de Aprendizagem
+
 Ao final desta lição, você será capaz de:
+
 1. Entender o propósito e a sintaxe da estrutura switch case
 2. Implementar switch case para lidar com múltiplas condições
 3. Utilizar a cláusula break corretamente dentro do switch
@@ -48,7 +50,7 @@ A estrutura básica do `switch case` consiste em:
 6. A palavra-chave `break` ao final de cada bloco (opcional, mas geralmente necessária)
 7. Uma cláusula `default` opcional para lidar com casos não especificados
 
-### Exemplo comentado:
+### Exemplo comentado
 
 ```javascript
 switch (expressao) {
@@ -68,7 +70,7 @@ switch (expressao) {
 
 No `switch case`, se não houver um `break` ao final de um `case`, a execução continuará para o próximo `case`, mesmo que sua condição não seja verdadeira. Isso é chamado de "fall-through" e pode ser útil em algumas situações, mas também pode causar bugs se não for intencional.
 
-### Exemplo comentado:
+### Exemplo comentado
 
 ```javascript
 let tipoFruta = "maçã";
@@ -95,7 +97,7 @@ console.log(categoria); // Saída: Fruta comum
 
 O `switch case` é mais adequado quando se compara uma única variável com múltiplos valores constantes. Para condições mais complexas ou comparações de intervalos, o `if...else` pode ser mais apropriado.
 
-### Exemplo comentado:
+### Exemplo comentado
 
 ```javascript
 // Usando switch case
@@ -136,7 +138,7 @@ console.log(conceito); // Saída: B
 
 A partir do ECMAScript 2015 (ES6), é possível usar expressões mais complexas nos casos do `switch`, desde que elas resultem em valores que possam ser comparados com a expressão do `switch`.
 
-### Exemplo comentado:
+### Exemplo comentado
 
 ```javascript
 let temperatura = 25;
@@ -214,6 +216,7 @@ O `switch case` é uma estrutura de controle poderosa em JavaScript que oferece 
 5. You Don't Know JS: [Types & Grammar](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/types%20%26%20grammar/ch5.md)
 
 Dicas de estudo:
+
 - Pratique escrevendo `switch case` para diferentes cenários.
 - Compare implementações usando `switch case` e `if...else` para entender melhor as diferenças.
 - Experimente com o comportamento de fall-through para entender seus usos e potenciais armadilhas.

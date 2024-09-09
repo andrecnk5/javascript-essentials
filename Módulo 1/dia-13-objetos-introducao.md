@@ -1,7 +1,9 @@
 # Dia 13: Objetos - Introdução
 
 ## Objetivos de Aprendizagem
+
 Ao final desta lição, você será capaz de:
+
 1. Entender o conceito de objetos em JavaScript
 2. Criar e manipular objetos usando diferentes notações
 3. Acessar e modificar propriedades de objetos
@@ -182,4 +184,3 @@ console.log(biblioteca.buscarPorAutor("George Orwell"));
 ## Próxima Aula
 
 Na próxima aula, aprofundaremos nosso conhecimento sobre objetos, explorando conceitos mais avançados como protótipos, herança e métodos de objeto.
-

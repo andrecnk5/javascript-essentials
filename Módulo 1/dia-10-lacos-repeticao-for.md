@@ -1,7 +1,9 @@
 # Dia 10: Laços de Repetição (for)
 
 ## Objetivos de Aprendizagem
+
 Ao final desta lição, você será capaz de:
+
 1. Entender a estrutura e o funcionamento do laço for em JavaScript
 2. Implementar laços for para iteração controlada por contagem
 3. Utilizar laços for para percorrer arrays
@@ -12,11 +14,12 @@ Ao final desta lição, você será capaz de:
 
 ### 1. for
 
-#### 1.1 Explicação:
+#### 1.1 Explicação
 
 O loop `for` é uma das estruturas de repetição mais comuns em JavaScript. Ele permite que você execute um bloco de código repetidamente com base em uma condição específica. A sintaxe básica do `for` é composta por três partes principais: inicialização, condição e expressão final.
 
 Sintaxe:
+
 ```javascript
 for (inicialização; condição; expressão final) {
   // código a ser executado
@@ -27,7 +30,7 @@ for (inicialização; condição; expressão final) {
 - Condição: É avaliada antes de cada iteração. Se for verdadeira, o loop continua; se for falsa, o loop termina.
 - Expressão final: É executada no final de cada iteração, geralmente usada para atualizar a variável de controle.
 
-#### 1.2 Exemplo comentado:
+#### 1.2 Exemplo comentado
 
 ```javascript
 // Este exemplo imprime os números de 1 a 5
@@ -44,7 +47,7 @@ for (let i = 1; i <= 5; i++) {
 
 ### 2. for...in
 
-#### 2.1 Explicação:
+#### 2.1 Explicação
 
 O loop `for...in` é usado para iterar sobre as propriedades enumeráveis de um objeto. Ele é especialmente útil quando você precisa percorrer as chaves de um objeto, mas não é recomendado para arrays.
 
@@ -58,7 +61,7 @@ for (variavel in objeto) {
 - variavel: A cada iteração, uma propriedade do objeto é atribuída a esta variável.
 - objeto: O objeto cujas propriedades enumeráveis serão iteradas.
 
-#### 2.2 Exemplo comentado:
+#### 2.2 Exemplo comentado
 
 ```javascript
 const pessoa = {
@@ -161,6 +164,7 @@ Este código usa `forEach` para o array e `Object.entries()` com destructuring p
 O loop `for...of` foi introduzido no ECMAScript 6 (ES6) e é usado para iterar sobre objetos iteráveis como arrays, strings, maps, sets, etc. Diferente do `for...in`, que itera sobre as chaves, o `for...of` itera diretamente sobre os valores.
 
 Sintaxe:
+
 ```javascript
 for (variavel of iteravel) {
   // código a ser executado
@@ -207,9 +211,11 @@ for (let letra of palavra) {
 ### 5. Exercícios Teóricos
 
 #### a. Questão Dissertativa:
+
 Explique a diferença principal entre o loop `for...in` e o loop `for...of` em JavaScript. Dê um exemplo de situação em que seria mais apropriado usar cada um deles.
 
 #### b. Questão de Múltipla Escolha:
+
 Qual é a saída do seguinte código?
 
 ```javascript
@@ -225,6 +231,7 @@ D) 1 2
 ```
 
 #### c. Questão de Caixa de Múltiplas Escolhas:
+
 Quais das seguintes afirmações sobre o loop `for` em JavaScript são verdadeiras? (Selecione todas as corretas)
 
 ```markdown
@@ -277,6 +284,7 @@ C. Usado para iterar sobre as propriedades de um objeto (  )
 
 // Solução:
   ```
+
 #### Exercício 2
 
 ```js
@@ -295,6 +303,7 @@ C. Usado para iterar sobre as propriedades de um objeto (  )
 ```
 
 #### Exercício 3
+
 ```js
 // Exercício 3: Gerador de Padrão de Asteriscos
 // Nível: Intermediário
@@ -311,8 +320,8 @@ C. Usado para iterar sobre as propriedades de um objeto (  )
 // Solução:
 ```
 
-
 #### Exercício 4
+
 ```js
 // Exercício 4: Encontrar Números Primos
 // Nível: Intermediário
@@ -330,6 +339,7 @@ C. Usado para iterar sobre as propriedades de um objeto (  )
 ```
 
 #### Exercício 5
+
 ```js
 // Exercício 5: Matriz em Espiral
 // Nível: Intermediário/Avançado
@@ -355,11 +365,13 @@ Cada tipo de loop tem seu lugar e uso apropriado, e entender as diferenças entr
 ### 8. Referências e Dicas de Estudo
 
 Referências:
+
 1. MDN Web Docs: [JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 2. JavaScript.info: [Loops: while and for](https://javascript.info/while-for)
 3. W3Schools: [JavaScript Loops](https://www.w3schools.com/js/js_loop_for.asp)
 
 Dicas de Estudo:
+
 1. Pratique implementando cada tipo de loop em diferentes cenários.
 2. Experimente converter loops de um tipo para outro para entender melhor suas diferenças e semelhanças.
 3. Estude casos de uso reais onde cada tipo de loop é mais apropriado.
