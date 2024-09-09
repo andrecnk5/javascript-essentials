@@ -1,4 +1,4 @@
-# Dia 6: Estruturas de Decisão (if, else)
+# Dia 7: Estruturas de Decisão (if, else)
 
 ## Índice
 1. [Introdução às Estruturas de Decisão](#introdução-às-estruturas-de-decisão)

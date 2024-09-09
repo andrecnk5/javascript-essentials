@@ -1,4 +1,4 @@
-# Dia 8: Laços de Repetição (while)
+# Dia 9: Laços de Repetição (while)
 
 ## Objetivos de Aprendizagem
 Ao final desta lição, você será capaz de:

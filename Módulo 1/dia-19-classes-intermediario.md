@@ -1,4 +1,4 @@
-# Dia 17: Classes - Intermediário
+# Dia 19: Classes - Intermediário
 
 ## Objetivos de Aprendizagem
 Ao final desta lição, você será capaz de:

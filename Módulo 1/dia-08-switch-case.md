@@ -1,4 +1,4 @@
-# Dia 7: Estruturas Condicionais Avançadas (Switch Case)
+# Dia 8: Estruturas Condicionais Avançadas (Switch Case)
 
 ## Objetivos de Aprendizagem
 Ao final desta lição, você será capaz de:

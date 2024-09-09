@@ -1,4 +1,4 @@
-# Dia 24: Avaliação - Módulo 1: Fundamentos de JavaScript
+# Dia 25: Avaliação - Módulo 1: Fundamentos de JavaScript
 
 ## Objetivo
 Esta avaliação tem como objetivo verificar a compreensão e aplicação dos conceitos fundamentais de JavaScript aprendidos no Módulo 1.

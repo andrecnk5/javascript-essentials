@@ -1,4 +1,4 @@
-# Dia 23: Quiz - Módulo 1: Fundamentos de JavaScript
+# Dia 24: Quiz - Módulo 1: Fundamentos de JavaScript
 
 ## Objetivo
 Este quiz tem como objetivo revisar e consolidar os conhecimentos adquiridos no Módulo 1: Fundamentos de JavaScript. Cada questão abordará um conceito importante, e as explicações detalhadas ajudarão a reforçar o aprendizado.

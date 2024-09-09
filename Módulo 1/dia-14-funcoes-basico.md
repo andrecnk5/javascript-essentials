@@ -1,4 +1,4 @@
-# Dia 12: Funções - Básico
+# Dia 14: Funções - Básico
 
 ## Objetivos de Aprendizagem
 Ao final desta lição, você será capaz de:

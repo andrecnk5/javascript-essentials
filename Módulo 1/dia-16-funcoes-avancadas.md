@@ -1,4 +1,4 @@
-# Dia 13: Funções - Avançadas
+# Dia 16: Funções - Avançadas
 
 ## Objetivos de Aprendizagem
 Ao final desta lição, você será capaz de:

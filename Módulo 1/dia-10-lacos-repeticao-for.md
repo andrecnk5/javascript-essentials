@@ -1,4 +1,4 @@
-# Dia 9: Laços de Repetição (for)
+# Dia 10: Laços de Repetição (for)
 
 ## Objetivos de Aprendizagem
 Ao final desta lição, você será capaz de:

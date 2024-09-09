@@ -1,4 +1,4 @@
-# Dia 5: Operadores de Comparação
+# Dia 6: Operadores de Comparação
 
 ## Objetivos de Aprendizagem
 Ao final desta lição, você será capaz de:

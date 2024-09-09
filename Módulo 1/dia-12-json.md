@@ -1,4 +1,4 @@
-# Dia 14: JSON (JavaScript Object Notation) - Detalhado
+# Dia 12: JSON (JavaScript Object Notation) - Detalhado
 
 ## Objetivos de Aprendizagem
 Ao final desta lição, você será capaz de:

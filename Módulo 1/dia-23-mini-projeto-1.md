@@ -1,4 +1,4 @@
-# Dia 22: Mini-Projeto 1 - Gerenciador de Tarefas
+# Dia 23: Mini-Projeto 1 - Gerenciador de Tarefas
 
 ## Objetivo do Projeto
 Criar um aplicativo de gerenciamento de tarefas que permita aos usuários adicionar, visualizar, marcar como concluídas e excluir tarefas. Este projeto aplicará vários conceitos fundamentais de JavaScript aprendidos até agora.

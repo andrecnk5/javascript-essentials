@@ -1,4 +1,4 @@
-# Dia 10: Estrutura de Dados: Arrays
+# Dia 11: Estrutura de Dados: Arrays
 
 ## Objetivos de Aprendizagem
 

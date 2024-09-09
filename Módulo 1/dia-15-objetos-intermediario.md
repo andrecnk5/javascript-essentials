@@ -1,4 +1,4 @@
-# Dia 16: Objetos - Intermediário
+# Dia 15: Objetos - Intermediário
 
 ## Objetivos de Aprendizagem
 Ao final desta lição, você será capaz de:
