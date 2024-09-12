@@ -273,10 +273,10 @@ if (x > 0) {
 
 2. Qual operador é usado para comparação estrita em JavaScript?
 
-    a) ==
-    b) ===
-    c) =
-    d) !=
+    1. [ ] a) ==
+    2. [ ] b) ===
+    3. [ ] c) =
+    4. [ ] d) !=
 
 ### Questões de Caixa de Múltiplas Escolhas
 
