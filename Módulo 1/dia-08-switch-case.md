@@ -169,28 +169,28 @@ switch (true) {
 
 2. Qual é a função principal da palavra-chave `break` em um `switch case`?
 
-   a) Iniciar um novo bloco de código
-   b) Encerrar a execução do switch e passar para o código seguinte
-   c) Definir um caso padrão
-   d) Comparar o valor da expressão com o caso
+   1. [ ] a) Iniciar um novo bloco de código
+   2. [ ] b) Encerrar a execução do switch e passar para o código seguinte
+   3. [ ] c) Definir um caso padrão
+   4. [ ] d) Comparar o valor da expressão com o caso
 
 ### Questão de Caixa de Múltiplas Escolhas
 
 3. Quais das seguintes afirmações sobre o `switch case` em JavaScript são verdadeiras? (Selecione todas as aplicáveis)
 
-   [ ] O `switch case` pode ser usado com tipos de dados não primitivos como objetos.
-   [ ] A cláusula `default` é obrigatória em todo `switch case`.
-   [ ] Se não houver `break` ao final de um `case`, a execução continuará para o próximo `case`.
-   [ ] O `switch case` é mais eficiente que `if...else` para comparar uma variável com muitos valores possíveis.
+   1. [ ] O `switch case` pode ser usado com tipos de dados não primitivos como objetos.
+   2. [ ] A cláusula `default` é obrigatória em todo `switch case`.
+   3. [ ] Se não houver `break` ao final de um `case`, a execução continuará para o próximo `case`.
+   4. [ ] O `switch case` é mais eficiente que `if...else` para comparar uma variável com muitos valores possíveis.
 
 ### Questão Verdadeiro ou Falso
 
 4. Determine se as seguintes afirmações são verdadeiras ou falsas:
 
-   a) O `switch case` só pode ser usado com valores numéricos.
-   b) É possível ter múltiplos `case` que executem o mesmo bloco de código.
-   c) A cláusula `default` deve sempre ser a última no `switch case`.
-   d) O `break` é sempre necessário ao final de cada `case`.
+   1. [ ] a) O `switch case` só pode ser usado com valores numéricos.
+   2. [ ] b) É possível ter múltiplos `case` que executem o mesmo bloco de código.
+   3. [ ] c) A cláusula `default` deve sempre ser a última no `switch case`.
+   4. [ ] d) O `break` é sempre necessário ao final de cada `case`.
 
 ### Questão de Associação
 
