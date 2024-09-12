@@ -282,19 +282,19 @@ if (x > 0) {
 
 1. Quais das seguintes são estruturas de decisão válidas em JavaScript? (Selecione todas as corretas)
 
-    [ ] if
-    [ ] if...else
-    [ ] if...else if
-    [ ] if...else if...else
-    [ ] switch
+    1. [ ] if
+    2. [ ] if...else
+    3. [ ] if...else if
+    4. [ ] if...else if...else
+    5. [ ] switch
 
 2. Quais dos seguintes são operadores lógicos em JavaScript? (Selecione todos os corretos)
 
-    [ ] &&
-    [ ] ||
-    [ ] !
-    [ ] &
-    [ ] |
+    1. [ ] &&
+    2. [ ] ||
+    3. [ ] !
+    4. [ ] &
+    5. [ ] |
 
 ### Questões Verdadeiro ou Falso
 
