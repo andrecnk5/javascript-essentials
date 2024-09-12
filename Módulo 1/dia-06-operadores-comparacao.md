@@ -165,14 +165,6 @@ Associe os operadores de comparação com suas descrições:
 | 4. >     | D. Igualdade (com coerção) |
 | 5. <=    | E. Desigualdade (com coerção) |
 
-Justificativa:
-
-- `==` realiza comparação de igualdade com coerção de tipo.
-- `===` realiza comparação de igualdade estrita, sem coerção.
-- `!=` verifica desigualdade com coerção de tipo.
-- `>` verifica se o valor à esquerda é maior que o valor à direita.
-- `<=` verifica se o valor à esquerda é menor ou igual ao valor à direita.
-
 ## 5. Conclusão
 
 Os operadores de comparação são fundamentais na programação JavaScript, permitindo a criação de lógica condicional e tomada de decisões em seu código. Eles são essenciais para controle de fluxo, validações e implementação de regras de negócio. É crucial entender as nuances entre os diferentes operadores, especialmente a diferença entre igualdade (==) e igualdade estrita (===), para evitar bugs sutis em seu código. Praticar o uso desses operadores em diferentes contextos ajudará a solidificar seu entendimento e melhorar suas habilidades de programação.
