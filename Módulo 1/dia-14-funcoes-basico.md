@@ -22,8 +22,8 @@ Existem várias formas de declarar funções em JavaScript:
 ### Declaração de Função
 
 ```javascript
-function saudacao(nome) {
-    console.log(`Olá, ${nome}!`);
+function nomeFuncao(parametro) {
+    return console.log(parametro);
 }
 ```
 
