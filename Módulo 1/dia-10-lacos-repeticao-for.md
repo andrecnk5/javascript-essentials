@@ -251,7 +251,6 @@ Quais das seguintes afirmações sobre o loop `for` em JavaScript são verdadeir
 2. O loop `for...of` pode ser usado para iterar sobre as propriedades de um objeto simples.
     □ Verdadeiro
     □ Falso
-   Resposta: Falso
 
 #### e. Questão de Associação:
 
