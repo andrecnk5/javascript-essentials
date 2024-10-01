@@ -339,7 +339,7 @@ Crie um sistema de gerenciamento de biblioteca que utilize JSON para armazenar e
 3. Crie uma função de busca que permita encontrar livros por título, autor ou ISBN.
 4. Implemente uma funcionalidade de exportação que converta toda a biblioteca para uma string JSON formatada.
 5. Adicione uma funcionalidade de importação que possa ler uma string JSON e adicionar os livros à biblioteca existente.
-6. Use `localStorage` para persistir os dados da biblioteca entre sessões.
+6. Use o módulo `fs` para persistir os dados da biblioteca entre sessões.
 
 Exemplo de solução parcial:
 
